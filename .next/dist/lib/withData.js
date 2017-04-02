@@ -50,6 +50,8 @@ var _initStore = require('./initStore');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/Users/alanlaidlaw/Desktop/site/with-next/x-next-blog/lib/withData.js';
+
 exports.default = function (Component) {
   return function (_React$Component) {
     (0, _inherits3.default)(_class, _React$Component);
@@ -82,7 +84,16 @@ exports.default = function (Component) {
                     break;
                   }
 
-                  app = _react2.default.createElement(_reactApollo.ApolloProvider, { client: client, store: store }, _react2.default.createElement(Component, props));
+                  app = _react2.default.createElement(_reactApollo.ApolloProvider, { client: client, store: store, __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 21
+                    }
+                  }, _react2.default.createElement(Component, (0, _extends3.default)({}, props, {
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 22
+                    }
+                  })));
                   _context.next = 13;
                   return (0, _reactApollo.getDataFromTree)(app);
 
@@ -126,7 +137,16 @@ exports.default = function (Component) {
     (0, _createClass3.default)(_class, [{
       key: 'render',
       value: function render() {
-        return _react2.default.createElement(_reactApollo.ApolloProvider, { client: this.client, store: this.store }, _react2.default.createElement(Component, this.props));
+        return _react2.default.createElement(_reactApollo.ApolloProvider, { client: this.client, store: this.store, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 50
+          }
+        }, _react2.default.createElement(Component, (0, _extends3.default)({}, this.props, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 51
+          }
+        })));
       }
     }]);
 

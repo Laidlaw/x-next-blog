@@ -30,6 +30,31 @@ var _withData2 = _interopRequireDefault(_withData);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/Users/alanlaidlaw/Desktop/site/with-next/x-next-blog/pages/index.js?entry';
 exports.default = (0, _withData2.default)(function (props) {
-  return _react2.default.createElement(_App2.default, null, _react2.default.createElement(_Header2.default, { pathname: props.url.pathname }), _react2.default.createElement(_Submit2.default, null), _react2.default.createElement(_PostList2.default, null));
+  return _react2.default.createElement(_App2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, _react2.default.createElement(_Header2.default, { pathname: props.url.pathname, __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    }
+  }), _react2.default.createElement('h1', {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, 'Test'), _react2.default.createElement(_Submit2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }), _react2.default.createElement(_PostList2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }));
 });
